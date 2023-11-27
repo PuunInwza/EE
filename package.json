@@ -1,0 +1,19 @@
+{
+  "name": "mta-discord-bot",
+  "version": "1.0.0",
+  "description": "Connects MTA:SA servers and Discord channels by sending messages/commands back and forth",
+  "main": "app.js",
+  "keywords": [
+    "discord",
+    "mta"
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Marek Kulik <me@botder.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "emojione": "^4.5.0"
+  }
+}
